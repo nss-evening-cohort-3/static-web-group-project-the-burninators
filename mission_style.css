@@ -1,0 +1,141 @@
+/*Header CSS*/
+
+header {
+  padding: 20px;
+  background: linear-gradient(to bottom, white, rgba(255, 255, 255, 0));
+  height: 130px;
+}
+
+.logo {
+  font-size: 40px;
+  float: left;
+  margin-top: -35px;
+  padding-right: 20px;
+  padding-left: 20px;
+  box-shadow: 0 5px 10px black;
+  background-color: #627f49;
+  border-radius: 15px;
+  font-family: 'Brush Script MT', cursive;
+}
+
+li:hover {
+  color: #277533;
+  border-bottom: 3px solid #277533;
+}
+
+li:active {
+  color: #DDDDDD;
+  border-bottom: 3px solid #DDDDDD;
+}
+
+.active {
+  color: #277533;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  display: inline;
+  margin: 0 25px;
+  padding: 5px;
+}
+
+ul {
+  list-style-type: none;
+  font-size: 14px;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+/*Our Mission Heading*/
+.mission_head {
+  width: 50%;
+  margin: 1em 1.5em .2em auto;
+  color: #294401;
+  font-family: 'Brush Script MT', cursive;
+  font-size: 5em;
+  text-align: center;
+  background-color: rgb(98, 127, 73);
+  box-shadow: 0 5px 10px black;
+  border-radius: 15px;
+  /*border: 5px double #294401*/
+}
+
+/*Body articles*/
+article {
+  margin: 0 auto 1.5em auto;
+  width: 75%;
+  background-color: rgba(94, 144, 0, 0.71);
+  color: white;
+  font-family: Verdana, Geneva, sans-serif;
+  border-radius: 25px;
+  border: 5px double #294401;
+  padding: 1em 2em;
+}
+
+p {
+  color: #294401;
+}
+
+h2, h3 {
+  text-align: center; 
+  color: white;
+}
+
+/*Images*/
+
+.organic {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  border: 4px double #294401;
+}
+
+.photocontainer {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.circle {
+  display: inline-block;
+  border: 4px double #294401;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin: 0 1em;
+}
+
+.tomato {
+  display: block;
+  margin: 0 auto;
+  width: 70%;
+  border: 4px double #294401;
+}
+
+/*Background Image*/
+html {
+  background: url(http://iliketowastemytime.com/sites/default/files/fresh-grass-hd-wallpaper.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/*Footer CSS*/
+
+footer {
+  position: absolute;
+  background: rgba(94, 144, 0, 0.71);
+  border-top: 2px double #294401;
+  width: 100%;
+}
+footer p {
+  text-align: right;
+  font-size: .75em;
+  color: #294401;
+  padding-right: 2em;
+  font-family: Verdana, Geneva, sans-serif;
+}
